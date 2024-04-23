@@ -1,2 +1,2 @@
 #!/bin/sh
-./pypy3-v6.0.0-linux64/bin/pypy3 runtime_interface.py
+./pypy3.9-v7.3.15-linux64/bin/pypy3 runtime_interface.py

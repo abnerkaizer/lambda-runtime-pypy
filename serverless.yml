@@ -2,13 +2,13 @@ service: aws-runtime-pypy
 
 provider:
   name: aws
-  runtime: provided #python3.7
-  region: eu-central-1
+  runtime: provided.al2 #python3.7
+  region: us-east-1
 
 package:
-  exclude:
+  patterns:
     - test/**
-    - pypy3-v6.0.0-linux64/bin/*debug
+    - pypy3.9-v7.3.15-linux64/bin/*debug
     #- pypy3-v6.0.0-linux64/lib-python/**
 
 functions:
