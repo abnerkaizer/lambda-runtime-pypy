@@ -12,8 +12,8 @@ package:
     #- pypy3-v6.0.0-linux64/lib-python/**
 
 functions:
-  hello:
-    handler: handler.hello
+  primes:
+    handler: handler.primes
     events:
       - http:
           path: primes
