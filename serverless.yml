@@ -1,4 +1,4 @@
-service: aws-runtime-pypy
+service: aws-runtime-pypy-v2
 
 provider:
   name: aws
@@ -8,7 +8,7 @@ provider:
 package:
   patterns:
     - test/**
-    - pypy3.9-v7.3.15-linux64/bin/*debug
+    - pypy3.9-v7.3.16-linux64/bin/*debug
     #- pypy3-v6.0.0-linux64/lib-python/**
 
 functions:
